@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: parcelly-orders
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/parcelly}
+    username: ${DB_USER:parcelly}
+    password: ${DB_PASSWORD:parcelly}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+  flyway:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
