@@ -6,7 +6,9 @@ Branch convention: `feature/PAR-xxx-short-desc`
 ## Sprint 1
 
 ### PAR-101: Order API: request/response DTOs, validation, ProblemDetail errors
-**Status:** IN PROGRESS (assigned to Julian, 2026-11-16) · **Type:** Feature · **Estimate:** 2–4h
+**Status:** IN REVIEW (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened) · **Type:** Feature · **Estimate:** 2–4h
+
+Review nits to address before self-merge: (1) open the PR; (2) add 255-char → 201 boundary test; (3) don't assert locale-dependent validator messages (expose/assert the error code instead, or pin locale); (4) stable problem `type` URIs instead of `about:blank`.
 
 The starter `OrderController` binds and returns the `Order` JPA entity directly and accepts any payload. Clients are about to integrate, so the contract has to be cleaned up first.
 
@@ -21,10 +23,20 @@ Acceptance criteria:
 - `./mvnw -B verify` is green; PR description explains the design choices.
 
 ### PAR-102: Paginate and sort `GET /api/orders`
-**Status:** TODO · **Type:** Feature
-- `page`, `size` (max 100), `sort` params; stable default sort `createdAt,desc`.
-- Response doesn't leak Spring's `PageImpl` JSON; use a documented page envelope.
-- Tests for bounds and default sort.
+**Status:** IN PROGRESS (assigned to Julian, 2026-11-17) · **Type:** Feature · **Estimate:** 3–4h
+Branch: `feature/PAR-102-orders-pagination` (start from PAR-101 branch; rebase onto main after it merges)
+
+Context (Marcus): the partner ops dashboard will poll the order list; ~2k orders/day makes an unbounded `findAll()` untenable.
+
+Acceptance criteria:
+- `GET /api/orders?page=0&size=20&sort=createdAt,desc`. Defaults: page 0, size 20, sort `createdAt,desc`.
+- `size` > 100 capped (clamp or reject, justified). Negative page or size < 1 → 400 problem+json.
+- Sort only on `createdAt`, `customerName`, `status`; anything else → 400 problem+json naming the property. No 500s from `PropertyReferenceException`.
+- Deterministic order: ties broken by `id`, so no order appears on two pages.
+- Documented envelope, e.g. `{"content": [...], "page": {"number","size","totalElements","totalPages"}}`. No raw `PageImpl` JSON or Spring Data serialization warning.
+- Mapping stays inside the read-only transaction.
+- Tests: defaults, size cap, bad sort property, negative page, and one repository/integration-level tie-break test.
+- `./mvnw -B verify` green; PR explains clamp-vs-reject and the envelope.
 
 ### PAR-103: Cancel an order
 **Status:** TODO · **Type:** Feature

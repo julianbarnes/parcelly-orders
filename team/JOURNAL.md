@@ -8,3 +8,11 @@
 - **Assigned:** PAR-101 (DTOs + validation + ProblemDetail + service layer). Chore: run the app locally against Postgres. Reading: RFC 9457 / Spring `ProblemDetail`.
 - **Emails from Julian:** none found in Gmail.
 - **Feedback summary:** n/a.
+
+## 2026-11-17 (Tuesday): Day 2
+
+- **Julian's work reviewed:** PAR-101 on `feature/PAR-101-order-service` (3e42b81). No PR opened. `./mvnw -B verify` green on this run (11 tests: 7 web slice, 2 service, 2 full-context). Verdict: approve with nits (open PR; 255 boundary test; locale-independent assertions; problem `type` URIs). Thinking questions: trimming, `Location` behind the LB, Postgres chore/README.
+- **Emails from Julian:** one reply on Nov 16 ("I don't see that branch in the remote"), answered: the ticket's branch name is one he creates.
+- **Assigned:** PAR-102 (pagination + sort whitelist + tie-break + envelope). Reading: Spring Data web support / `PagedModel`.
+- **Infra:** the 08:48 run sent the standup email but could not build or push, and attached these notes as a patch. The 09:30 run verified the build, pushed the notes to main, and sent a short follow-up telling Julian to ignore the patch.
+- **Feedback summary:** strong first submission; habits to build: open PRs, test both sides of boundaries.
