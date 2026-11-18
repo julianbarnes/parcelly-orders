@@ -16,3 +16,10 @@
 - **Assigned:** PAR-102 (pagination + sort whitelist + tie-break + envelope). Reading: Spring Data web support / `PagedModel`.
 - **Infra:** the 08:48 run sent the standup email but could not build or push, and attached these notes as a patch. The 09:30 run verified the build, pushed the notes to main, and sent a short follow-up telling Julian to ignore the patch.
 - **Feedback summary:** strong first submission; habits to build: open PRs, test both sides of boundaries.
+
+## 2026-11-18 (Wednesday): Day 3
+
+- **Julian's work reviewed:** none new. `feature/PAR-101-order-service` still at 3e42b81, no PR, no PAR-102 branch on the remote. Main `./mvnw -B verify` green.
+- **Emails from Julian:** none since the Nov 16 branch question.
+- **Assigned:** nothing new, on purpose. He still has PAR-101 nits + PR and PAR-102. Sent a kind check-in with a suggested 4-step slicing of PAR-102 and an invitation to raise blockers.
+- **Feedback summary:** n/a (no new work).

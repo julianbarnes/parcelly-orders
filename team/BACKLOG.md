@@ -23,7 +23,7 @@ Acceptance criteria:
 - `./mvnw -B verify` is green; PR description explains the design choices.
 
 ### PAR-102: Paginate and sort `GET /api/orders`
-**Status:** IN PROGRESS (assigned to Julian, 2026-11-17) · **Type:** Feature · **Estimate:** 3–4h
+**Status:** IN PROGRESS (assigned to Julian, 2026-11-17; no branch pushed as of 2026-11-18) · **Type:** Feature · **Estimate:** 3–4h
 Branch: `feature/PAR-102-orders-pagination` (start from PAR-101 branch; rebase onto main after it merges)
 
 Context (Marcus): the partner ops dashboard will poll the order list; ~2k orders/day makes an unbounded `findAll()` untenable.
