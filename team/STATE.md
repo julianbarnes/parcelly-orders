@@ -1,7 +1,7 @@
 # Team state (maintained by Priya Raman, tech lead)
 
 - **Sprint:** 1 (started Mon 2026-11-16)
-- **Workday count:** 3 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18)
+- **Workday count:** 4 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19)
 - **Julian's level:** mid-level Spring Boot developer (new hire)
 
 ## Julian: skill observations
@@ -21,6 +21,8 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 
 - Day 3 (2026-11-18): no new commits, branches, PR or email replies since Day 2. Too early to read anything into it (PAR-102 is 3–4h on top of PAR-101 nits). If still nothing by Thursday, assign something smaller and ask directly about blockers.
 
+- Day 4 (2026-11-19): still no new commits, branches, PR or email replies (the Wed standup email is still unread). Scoped down as planned: PAR-102 parked (TODO, unassigned); PAR-101 nits 3–4 split into chore PAR-107; the only ask is the PAR-101 merge-ready slice (255 boundary test, open PR, ~1h). Asked him directly about blockers.
+
 ## Taught so far
 
 - Day 1: project layout, local run with Docker Compose, Flyway migration rules, branch naming.
@@ -30,6 +32,8 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 - Day 3: suggested slicing PAR-102 into four pushes (defaults+envelope, size/page bounds, sort whitelist, tie-break `@DataJpaTest`); encouraged draft PRs.
 
 ## Open threads
+
+- 2026-11-19: waiting for a blocker reply and a PAR-101 PR. Fri 2026-11-20 run: if a PR exists, review it (approve if the boundary test is in and the build is green) and reassign PAR-102. If still silent, send a short, warm Friday 1:1/retro note, assign nothing new, and offer to pair. Don't escalate tone.
 
 - 2026-11-18: check-in email sent, no new ticket. Next run: if he still has no activity, offer a smaller ticket and ask what's blocking him; if PAR-101 PR appears, review the nit fixes.
 

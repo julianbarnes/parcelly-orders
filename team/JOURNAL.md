@@ -23,3 +23,10 @@
 - **Emails from Julian:** none since the Nov 16 branch question.
 - **Assigned:** nothing new, on purpose. He still has PAR-101 nits + PR and PAR-102. Sent a kind check-in with a suggested 4-step slicing of PAR-102 and an invitation to raise blockers.
 - **Feedback summary:** n/a (no new work).
+
+## 2026-11-19 (Thursday): Day 4
+
+- **Julian's work reviewed:** none new. `feature/PAR-101-order-service` still at 3e42b81, no PR, no PAR-102 branch. Main `./mvnw -B verify` green.
+- **Emails from Julian:** none. The Wed standup email is still unread.
+- **Assigned:** scoped down. PAR-102 parked back to TODO; PAR-101 nits 3–4 split into PAR-107. Only ask: the PAR-101 merge-ready slice (255-char boundary test + open PR, ~1h). Asked directly and kindly what's blocking him.
+- **Feedback summary:** n/a (no new work).

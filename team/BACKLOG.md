@@ -6,9 +6,9 @@ Branch convention: `feature/PAR-xxx-short-desc`
 ## Sprint 1
 
 ### PAR-101: Order API: request/response DTOs, validation, ProblemDetail errors
-**Status:** IN REVIEW (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened) · **Type:** Feature · **Estimate:** 2–4h
+**Status:** IN PROGRESS (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened. 2026-11-19: scoped down to the merge-ready slice) · **Type:** Feature · **Estimate:** 2–4h
 
-Review nits to address before self-merge: (1) open the PR; (2) add 255-char → 201 boundary test; (3) don't assert locale-dependent validator messages (expose/assert the error code instead, or pin locale); (4) stable problem `type` URIs instead of `about:blank`.
+Required before self-merge (as of 2026-11-19): (1) open the PR; (2) add 255-char → 201 boundary test; green verify. Nits 3–4 moved to PAR-107.
 
 The starter `OrderController` binds and returns the `Order` JPA entity directly and accepts any payload. Clients are about to integrate, so the contract has to be cleaned up first.
 
@@ -23,7 +23,7 @@ Acceptance criteria:
 - `./mvnw -B verify` is green; PR description explains the design choices.
 
 ### PAR-102: Paginate and sort `GET /api/orders`
-**Status:** IN PROGRESS (assigned to Julian, 2026-11-17; no branch pushed as of 2026-11-18) · **Type:** Feature · **Estimate:** 3–4h
+**Status:** TODO (parked 2026-11-19, unassigned until PAR-101 merges; Marcus OK to slip to next week) · **Type:** Feature · **Estimate:** 3–4h
 Branch: `feature/PAR-102-orders-pagination` (start from PAR-101 branch; rebase onto main after it merges)
 
 Context (Marcus): the partner ops dashboard will poll the order list; ~2k orders/day makes an unbounded `findAll()` untenable.
@@ -37,6 +37,12 @@ Acceptance criteria:
 - Mapping stays inside the read-only transaction.
 - Tests: defaults, size cap, bad sort property, negative page, and one repository/integration-level tie-break test.
 - `./mvnw -B verify` green; PR explains clamp-vs-reject and the envelope.
+
+### PAR-107: Chore: locale-independent validation assertions + problem `type` URIs
+**Status:** TODO · **Type:** Chore · **Estimate:** 1h · Split out of the PAR-101 review on 2026-11-19
+- Tests don't assert on locale-dependent Hibernate Validator default messages (assert a field/code, or pin `Locale`).
+- Problem responses use stable `type` URIs (for example `https://api.parcelly.example/problems/validation`) instead of `about:blank`.
+- `./mvnw -B verify` is green.
 
 ### PAR-103: Cancel an order
 **Status:** TODO · **Type:** Feature
