@@ -1,7 +1,7 @@
 # Team state (maintained by Priya Raman, tech lead)
 
 - **Sprint:** 1 (started Mon 2026-11-16)
-- **Workday count:** 4 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19)
+- **Workday count:** 5 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19; Day 5 = Fri 2026-11-20)
 - **Julian's level:** mid-level Spring Boot developer (new hire)
 
 ## Julian: skill observations
@@ -23,6 +23,8 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 
 - Day 4 (2026-11-19): still no new commits, branches, PR or email replies (the Wed standup email is still unread). Scoped down as planned: PAR-102 parked (TODO, unassigned); PAR-101 nits 3–4 split into chore PAR-107; the only ask is the PAR-101 merge-ready slice (255 boundary test, open PR, ~1h). Asked him directly about blockers.
 
+- Day 5 (2026-11-20): still no new commits, branches, PR or replies. The Thu standup email *was* read (no UNREAD label), so he is seeing the emails. Sent the Friday retro/1:1: praised the PAR-101 quality, asked for visibility (one-line replies, draft PRs), and acknowledged Priya front-loaded too much. Nothing new assigned; offered a 30-min pair on Monday (reply "pair").
+
 ## Taught so far
 
 - Day 1: project layout, local run with Docker Compose, Flyway migration rules, branch naming.
@@ -32,6 +34,8 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 - Day 3: suggested slicing PAR-102 into four pushes (defaults+envelope, size/page bounds, sort whitelist, tie-break `@DataJpaTest`); encouraged draft PRs.
 
 ## Open threads
+
+- 2026-11-20 (Fri): retro sent, no new ticket. **Mon 2026-11-23 = Sprint 2 planning.** If a PAR-101 PR or reply exists: review it, then plan Sprint 2 (PAR-107 small chore + PAR-102). If he replied "pair": acknowledge it and give one tiny, concrete pairing agenda (open the PAR-101 PR together). If still silent after 5 workdays: roll PAR-101 into Sprint 2 as the only commitment and keep the tone warm; consider a very small, self-contained starter (e.g. a 30-min README/run-locally fix) to rebuild momentum. Don't pile on.
 
 - 2026-11-19: waiting for a blocker reply and a PAR-101 PR. Fri 2026-11-20 run: if a PR exists, review it (approve if the boundary test is in and the build is green) and reassign PAR-102. If still silent, send a short, warm Friday 1:1/retro note, assign nothing new, and offer to pair. Don't escalate tone.
 

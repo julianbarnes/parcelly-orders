@@ -30,3 +30,11 @@
 - **Emails from Julian:** none. The Wed standup email is still unread.
 - **Assigned:** scoped down. PAR-102 parked back to TODO; PAR-101 nits 3–4 split into PAR-107. Only ask: the PAR-101 merge-ready slice (255-char boundary test + open PR, ~1h). Asked directly and kindly what's blocking him.
 - **Feedback summary:** n/a (no new work).
+
+## 2026-11-20 (Friday): Day 5, Sprint 1 retro
+
+- **Julian's work reviewed:** none new. `feature/PAR-101-order-service` still at 3e42b81, no PR, no other branches. Main `./mvnw -B verify` green.
+- **Emails from Julian:** none. The Thu standup email has been read but got no reply.
+- **Assigned:** nothing new. PAR-101 merge-ready slice (255-char test + PR) stays open and carries into Sprint 2.
+- **Retro / 1:1:** strong day-one quality on PAR-101; the growth area is visibility (short replies, early draft PRs); Priya owned the overloaded first days. Offered a 30-min pair on Monday.
+- **Sprint 1 outcome:** 0 tickets merged (PAR-101 code done but never PR'd). Velocity is not representative yet.
