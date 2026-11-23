@@ -1,7 +1,7 @@
 # Team state (maintained by Priya Raman, tech lead)
 
-- **Sprint:** 1 (started Mon 2026-11-16)
-- **Workday count:** 5 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19; Day 5 = Fri 2026-11-20)
+- **Sprint:** 2 (started Mon 2026-11-23; Sprint 1 ran 2026-11-16 to 11-20)
+- **Workday count:** 6 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19; Day 5 = Fri 2026-11-20; Day 6 = Mon 2026-11-23, Sprint 2 planning)
 - **Julian's level:** mid-level Spring Boot developer (new hire)
 
 ## Julian: skill observations
@@ -25,6 +25,8 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 
 - Day 5 (2026-11-20): still no new commits, branches, PR or replies. The Thu standup email *was* read (no UNREAD label), so he is seeing the emails. Sent the Friday retro/1:1: praised the PAR-101 quality, asked for visibility (one-line replies, draft PRs), and acknowledged Priya front-loaded too much. Nothing new assigned; offered a 30-min pair on Monday (reply "pair").
 
+- Day 6 (2026-11-23, Mon): still no new commits, branches, PR or replies (6 workdays since 3e42b81). The Fri retro email was read. Sprint 2 planning: the only commitment is the PAR-101 merge-ready slice; added an optional 30-min warm-up PAR-108 (README troubleshooting) as an *alternative* way back in, not extra work. Short week (US Thanksgiving Thu 11-26).
+
 ## Taught so far
 
 - Day 1: project layout, local run with Docker Compose, Flyway migration rules, branch naming.
@@ -34,6 +36,8 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 - Day 3: suggested slicing PAR-102 into four pushes (defaults+envelope, size/page bounds, sort whitelist, tie-break `@DataJpaTest`); encouraged draft PRs.
 
 ## Open threads
+
+- 2026-11-23 (Mon): Sprint 2 planning sent. Next run (Tue 11-24): if a PAR-101 or PAR-108 PR/branch appears, review it promptly and generously (approve PAR-101 if the 255 test is in and verify is green). If he replied "pair", acknowledge with a concrete agenda. If still silent: keep it to a 3-line check-in, assign nothing, and don't repeat the full plan. Treat Thu 11-26/Fri 11-27 as holiday-light (Thu: skip or one-liner; Fri: brief retro).
 
 - 2026-11-20 (Fri): retro sent, no new ticket. **Mon 2026-11-23 = Sprint 2 planning.** If a PAR-101 PR or reply exists: review it, then plan Sprint 2 (PAR-107 small chore + PAR-102). If he replied "pair": acknowledge it and give one tiny, concrete pairing agenda (open the PAR-101 PR together). If still silent after 5 workdays: roll PAR-101 into Sprint 2 as the only commitment and keep the tone warm; consider a very small, self-contained starter (e.g. a 30-min README/run-locally fix) to rebuild momentum. Don't pile on.
 

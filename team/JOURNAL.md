@@ -38,3 +38,10 @@
 - **Assigned:** nothing new. PAR-101 merge-ready slice (255-char test + PR) stays open and carries into Sprint 2.
 - **Retro / 1:1:** strong day-one quality on PAR-101; the growth area is visibility (short replies, early draft PRs); Priya owned the overloaded first days. Offered a 30-min pair on Monday.
 - **Sprint 1 outcome:** 0 tickets merged (PAR-101 code done but never PR'd). Velocity is not representative yet.
+
+## 2026-11-23 (Monday): Day 6, Sprint 2 planning
+
+- **Julian's work reviewed:** none new. `feature/PAR-101-order-service` still at 3e42b81, no PR, no other branches (`git fetch --all --prune`; `gh` not installed). Main `./mvnw -B verify` green.
+- **Emails from Julian:** none. The Fri retro email was read, no reply, no "pair".
+- **Sprint 2 plan:** short week (Thanksgiving). Only commitment: the PAR-101 merge-ready slice (255-char → 201 test + open PR). New optional warm-up PAR-108 (README troubleshooting, ~30 min), offered as an alternative way back in. PAR-102 moved to Sprint 3 with Marcus's OK; PAR-107 stays in backlog.
+- **Feedback summary:** n/a (no new work). Tone kept warm; repeated the pairing offer.

@@ -3,10 +3,13 @@
 Status: `TODO` · `IN PROGRESS` · `IN REVIEW` · `DONE`
 Branch convention: `feature/PAR-xxx-short-desc`
 
-## Sprint 1
+## Sprint 2 (Mon 2026-11-23 to Fri 2026-11-27, short week)
+
+Commitment: PAR-101 merge-ready slice only. Optional warm-up: PAR-108. Everything else is backlog.
+
 
 ### PAR-101: Order API: request/response DTOs, validation, ProblemDetail errors
-**Status:** IN PROGRESS (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened. 2026-11-19: scoped down to the merge-ready slice; 2026-11-20: unchanged, carries into Sprint 2) · **Type:** Feature · **Estimate:** 2–4h
+**Status:** IN PROGRESS (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened. 2026-11-19: scoped down to the merge-ready slice; 2026-11-20: unchanged, carries into Sprint 2; 2026-11-23: the only Sprint 2 commitment) · **Type:** Feature · **Estimate:** 2–4h
 
 Required before self-merge (as of 2026-11-19): (1) open the PR; (2) add 255-char → 201 boundary test; green verify. Nits 3–4 moved to PAR-107.
 
@@ -23,7 +26,7 @@ Acceptance criteria:
 - `./mvnw -B verify` is green; PR description explains the design choices.
 
 ### PAR-102: Paginate and sort `GET /api/orders`
-**Status:** TODO (parked 2026-11-19, unassigned until PAR-101 merges; Marcus OK to slip to next week) · **Type:** Feature · **Estimate:** 3–4h
+**Status:** TODO (parked 2026-11-19, unassigned until PAR-101 merges; 2026-11-23: Marcus OK with Sprint 3) · **Type:** Feature · **Estimate:** 3–4h
 Branch: `feature/PAR-102-orders-pagination` (start from PAR-101 branch; rebase onto main after it merges)
 
 Context (Marcus): the partner ops dashboard will poll the order list; ~2k orders/day makes an unbounded `findAll()` untenable.
@@ -43,6 +46,13 @@ Acceptance criteria:
 - Tests don't assert on locale-dependent Hibernate Validator default messages (assert a field/code, or pin `Locale`).
 - Problem responses use stable `type` URIs (for example `https://api.parcelly.example/problems/validation`) instead of `about:blank`.
 - `./mvnw -B verify` is green.
+
+### PAR-108: Docs: README troubleshooting section
+**Status:** TODO (offered 2026-11-23 as an optional warm-up) · **Type:** Docs / Chore · **Estimate:** 30 min
+Branch: `feature/PAR-108-readme-troubleshooting`
+- README gains a "Troubleshooting" section: port 5432 already in use, Docker not running, resetting the local DB (`docker compose down -v`), stopping everything.
+- Every documented command is run by the author first.
+- PR opened; `./mvnw -B verify` stays green.
 
 ### PAR-103: Cancel an order
 **Status:** TODO · **Type:** Feature
