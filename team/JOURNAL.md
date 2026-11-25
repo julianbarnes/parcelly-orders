@@ -52,3 +52,10 @@
 - **Emails from Julian:** none. The Mon Sprint 2 planning email is still unread.
 - **Assigned:** nothing new. Sent a short check-in: PAR-101 slice or PAR-108 if he has time, reply "pair" or "busy" if blocked, light week for Thanksgiving.
 - **Feedback summary:** n/a (no new work).
+
+## 2026-11-25 (Wednesday): Day 8
+
+- **Julian's work reviewed:** none new. `feature/PAR-101-order-service` still at 3e42b81, no PR, no other branches (`git fetch --all --prune`; `gh` not installed). Main `./mvnw -B verify` green.
+- **Emails from Julian:** none. The Mon and Tue standup emails are both unread.
+- **Assigned:** nothing new. Sent a 2-line note (PAR-101 slice or PAR-108 whenever; one-word reply if blocked; retro on Friday).
+- **Feedback summary:** n/a (no new work).
