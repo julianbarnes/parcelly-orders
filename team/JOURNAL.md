@@ -59,3 +59,10 @@
 - **Emails from Julian:** none. The Mon and Tue standup emails are both unread.
 - **Assigned:** nothing new. Sent a 2-line note (PAR-101 slice or PAR-108 whenever; one-word reply if blocked; retro on Friday).
 - **Feedback summary:** n/a (no new work).
+
+## 2026-11-26 (Thursday): Day 9, US Thanksgiving
+
+- **Julian's work reviewed:** none new. `feature/PAR-101-order-service` still at 3e42b81, no PR, no other branches (`git fetch --all --prune`; `gh` not installed). Main `./mvnw -B verify` green.
+- **Emails from Julian:** none. The Mon, Tue and Wed standup emails are all unread.
+- **Assigned:** nothing (holiday). Sent a one-line holiday note; Sprint 2 retro tomorrow.
+- **Feedback summary:** n/a (no new work).

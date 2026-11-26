@@ -1,7 +1,7 @@
 # Team state (maintained by Priya Raman, tech lead)
 
 - **Sprint:** 2 (started Mon 2026-11-23; Sprint 1 ran 2026-11-16 to 11-20)
-- **Workday count:** 8 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19; Day 5 = Fri 2026-11-20; Day 6 = Mon 2026-11-23, Sprint 2 planning; Day 7 = Tue 2026-11-24; Day 8 = Wed 2026-11-25)
+- **Workday count:** 9 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19; Day 5 = Fri 2026-11-20; Day 6 = Mon 2026-11-23, Sprint 2 planning; Day 7 = Tue 2026-11-24; Day 8 = Wed 2026-11-25; Day 9 = Thu 2026-11-26, US Thanksgiving)
 - **Julian's level:** mid-level Spring Boot developer (new hire)
 
 ## Julian: skill observations
@@ -29,6 +29,7 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 
 - Day 7 (2026-11-24, Tue): still no new commits, branches, PR or replies (7 workdays since 3e42b81). The Mon Sprint 2 planning email is still **unread**. Sent a short check-in as planned: no new ticket, no repeat of the full plan.
 - Day 8 (2026-11-25, Wed): still no new commits, branches, PR or replies (8 workdays since 3e42b81). Both the Mon and Tue emails are **unread**. Sent a 2-line note only; nothing assigned. Main verify green.
+- Day 9 (2026-11-26, Thu, Thanksgiving): still no new commits, branches, PR or replies (9 workdays since 3e42b81). The Mon, Tue and Wed emails are all **unread** (the Fri retro is the last one read). Sent a holiday one-liner only; nothing assigned. Main verify green.
 
 ## Taught so far
 
@@ -39,6 +40,8 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 - Day 3: suggested slicing PAR-102 into four pushes (defaults+envelope, size/page bounds, sort whitelist, tie-break `@DataJpaTest`); encouraged draft PRs.
 
 ## Open threads
+
+- 2026-11-26 (Thu, Thanksgiving): holiday one-liner sent. **Fri 11-27 = Sprint 2 retro.** Keep it short, warm and honest: 0 merges in two sprints, and the emails since Monday are unread. Ask directly whether the daily email cadence/format works for him (e.g. weekly digest, or one email only when there's something to act on). Propose Sprint 3 around ONE fresh small ticket (PAR-108 or PAR-107), not the stale PAR-101 ask. If work or a reply appears, review it promptly and generously.
 
 - 2026-11-25 (Wed): 2-line note sent, nothing assigned. Thu 11-26 is Thanksgiving: skip the email (or one line at most). Fri 11-27: brief retro (honest, warm, short). If still no activity, propose Sprint 3 around a fresh small self-contained ticket (e.g. PAR-108 or PAR-107) instead of the stale PAR-101 ask, and consider asking whether the daily cadence/email format works for him.
 

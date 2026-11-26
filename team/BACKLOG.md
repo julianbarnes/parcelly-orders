@@ -9,7 +9,7 @@ Commitment: PAR-101 merge-ready slice only. Optional warm-up: PAR-108. Everythin
 
 
 ### PAR-101: Order API: request/response DTOs, validation, ProblemDetail errors
-**Status:** IN PROGRESS (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened. 2026-11-19: scoped down to the merge-ready slice; 2026-11-20: unchanged, carries into Sprint 2; 2026-11-23: the only Sprint 2 commitment; 2026-11-24: no change; 2026-11-25: no change) · **Type:** Feature · **Estimate:** 2–4h
+**Status:** IN PROGRESS (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened. 2026-11-19: scoped down to the merge-ready slice; 2026-11-20: unchanged, carries into Sprint 2; 2026-11-23: the only Sprint 2 commitment; 2026-11-24: no change; 2026-11-25: no change; 2026-11-26: no change, Thanksgiving) · **Type:** Feature · **Estimate:** 2–4h
 
 Required before self-merge (as of 2026-11-19): (1) open the PR; (2) add 255-char → 201 boundary test; green verify. Nits 3–4 moved to PAR-107.
 
