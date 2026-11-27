@@ -1,7 +1,7 @@
 # Team state (maintained by Priya Raman, tech lead)
 
 - **Sprint:** 2 (started Mon 2026-11-23; Sprint 1 ran 2026-11-16 to 11-20)
-- **Workday count:** 9 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19; Day 5 = Fri 2026-11-20; Day 6 = Mon 2026-11-23, Sprint 2 planning; Day 7 = Tue 2026-11-24; Day 8 = Wed 2026-11-25; Day 9 = Thu 2026-11-26, US Thanksgiving)
+- **Workday count:** 10 (Day 1 = Mon 2026-11-16, onboarding; Day 2 = Tue 2026-11-17; Day 3 = Wed 2026-11-18; Day 4 = Thu 2026-11-19; Day 5 = Fri 2026-11-20; Day 6 = Mon 2026-11-23, Sprint 2 planning; Day 7 = Tue 2026-11-24; Day 8 = Wed 2026-11-25; Day 9 = Thu 2026-11-26, US Thanksgiving; Day 10 = Fri 2026-11-27, Sprint 2 retro)
 - **Julian's level:** mid-level Spring Boot developer (new hire)
 
 ## Julian: skill observations
@@ -30,6 +30,7 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 - Day 7 (2026-11-24, Tue): still no new commits, branches, PR or replies (7 workdays since 3e42b81). The Mon Sprint 2 planning email is still **unread**. Sent a short check-in as planned: no new ticket, no repeat of the full plan.
 - Day 8 (2026-11-25, Wed): still no new commits, branches, PR or replies (8 workdays since 3e42b81). Both the Mon and Tue emails are **unread**. Sent a 2-line note only; nothing assigned. Main verify green.
 - Day 9 (2026-11-26, Thu, Thanksgiving): still no new commits, branches, PR or replies (9 workdays since 3e42b81). The Mon, Tue and Wed emails are all **unread** (the Fri retro is the last one read). Sent a holiday one-liner only; nothing assigned. Main verify green.
+- Day 10 (2026-11-27, Fri, Sprint 2 retro): still no new commits, branches, PR or replies (10 workdays since 3e42b81; `git ls-remote` confirms only `main` + PAR-101). The Nov 18 and Nov 23–26 emails are all unread. Sent a short retro: honest (0 merges in two sprints), warm, asked him to pick an email cadence (daily / weekly / on push; default on push from Mon), and proposed Sprint 3 around PAR-108 only.
 
 ## Taught so far
 
@@ -40,6 +41,8 @@ Baseline from PAR-101 (branch `feature/PAR-101-order-service`, commit 3e42b81, p
 - Day 3: suggested slicing PAR-102 into four pushes (defaults+envelope, size/page bounds, sort whitelist, tie-break `@DataJpaTest`); encouraged draft PRs.
 
 ## Open threads
+
+- 2026-11-27 (Fri): retro sent. **Mon 11-30 = Sprint 3 planning.** If he replied with a cadence, honour it. If no reply: switch to "on push" — send one short Monday planning note (PAR-108 as the only commitment), then skip daily emails on days with no new activity (still update JOURNAL each run). Any branch/PR/reply → review promptly and generously (PAR-108: approve if commands verified + verify green; PAR-101: approve once the 255 test is in).
 
 - 2026-11-26 (Thu, Thanksgiving): holiday one-liner sent. **Fri 11-27 = Sprint 2 retro.** Keep it short, warm and honest: 0 merges in two sprints, and the emails since Monday are unread. Ask directly whether the daily email cadence/format works for him (e.g. weekly digest, or one email only when there's something to act on). Propose Sprint 3 around ONE fresh small ticket (PAR-108 or PAR-107), not the stale PAR-101 ask. If work or a reply appears, review it promptly and generously.
 

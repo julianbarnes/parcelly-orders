@@ -3,13 +3,17 @@
 Status: `TODO` · `IN PROGRESS` · `IN REVIEW` · `DONE`
 Branch convention: `feature/PAR-xxx-short-desc`
 
+## Sprint 3 (Mon 2026-11-30 to Fri 2026-12-04), proposed 2026-11-27
+
+Commitment: PAR-108 only. PAR-101 slice optional. Sprint 2 closed with 0 merges.
+
 ## Sprint 2 (Mon 2026-11-23 to Fri 2026-11-27, short week)
 
 Commitment: PAR-101 merge-ready slice only. Optional warm-up: PAR-108. Everything else is backlog.
 
 
 ### PAR-101: Order API: request/response DTOs, validation, ProblemDetail errors
-**Status:** IN PROGRESS (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened. 2026-11-19: scoped down to the merge-ready slice; 2026-11-20: unchanged, carries into Sprint 2; 2026-11-23: the only Sprint 2 commitment; 2026-11-24: no change; 2026-11-25: no change; 2026-11-26: no change, Thanksgiving) · **Type:** Feature · **Estimate:** 2–4h
+**Status:** IN PROGRESS (branch `feature/PAR-101-order-service`; reviewed 2026-11-17: approve with nits, PR not yet opened. 2026-11-19: scoped down to the merge-ready slice; 2026-11-20: unchanged, carries into Sprint 2; 2026-11-23: the only Sprint 2 commitment; 2026-11-24: no change; 2026-11-25: no change; 2026-11-26: no change, Thanksgiving; 2026-11-27: no change, de-prioritised behind PAR-108 for Sprint 3, still open whenever he wants it) · **Type:** Feature · **Estimate:** 2–4h
 
 Required before self-merge (as of 2026-11-19): (1) open the PR; (2) add 255-char → 201 boundary test; green verify. Nits 3–4 moved to PAR-107.
 
@@ -48,7 +52,7 @@ Acceptance criteria:
 - `./mvnw -B verify` is green.
 
 ### PAR-108: Docs: README troubleshooting section
-**Status:** TODO (offered 2026-11-23 as an optional warm-up) · **Type:** Docs / Chore · **Estimate:** 30 min
+**Status:** TODO (offered 2026-11-23 as an optional warm-up; 2026-11-27: proposed as the sole Sprint 3 commitment) · **Type:** Docs / Chore · **Estimate:** 30 min
 Branch: `feature/PAR-108-readme-troubleshooting`
 - README gains a "Troubleshooting" section: port 5432 already in use, Docker not running, resetting the local DB (`docker compose down -v`), stopping everything.
 - Every documented command is run by the author first.

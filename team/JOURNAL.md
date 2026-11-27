@@ -66,3 +66,11 @@
 - **Emails from Julian:** none. The Mon, Tue and Wed standup emails are all unread.
 - **Assigned:** nothing (holiday). Sent a one-line holiday note; Sprint 2 retro tomorrow.
 - **Feedback summary:** n/a (no new work).
+
+## 2026-11-27 (Friday): Day 10, Sprint 2 retro
+
+- **Julian's work reviewed:** none new. Remote has only `main` and `feature/PAR-101-order-service` (3e42b81), no PR (`gh` not installed; first `git fetch` hit a DNS timeout, `git ls-remote` then succeeded). Main `./mvnw -B verify` green.
+- **Emails from Julian:** none. All standup emails since Mon 11-23 are unread.
+- **Retro:** PAR-101 quality praised; honest note that two sprints closed with 0 merges; asked him to pick an email cadence (daily / weekly / on push, default on push from Mon).
+- **Sprint 3 proposal:** PAR-108 (README troubleshooting, ~30 min) as the sole commitment; PAR-101 slice optional.
+- **Feedback summary:** n/a (no new work).
